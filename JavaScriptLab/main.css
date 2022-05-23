@@ -1,0 +1,127 @@
+body {
+    background-color: #413D3D;
+}
+ 
+.grid {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+}
+
+ 
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: #033322;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    
+}
+ 
+#score {
+    color: #01BBFF;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+ 
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #01BBFF;
+}
+ 
+.buttons {
+    margin-top: 30px;
+    color: #0a0909;
+    font-size: "40px";
+    font-weight: normal;
+}
+ 
+#btn0, #btn1, #btn2, #btn3{
+    background-color: #01BBFF;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #1D3C6A;
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+ 
+#progress {
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+#timeleft{
+    width: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #1D3C6A;
+    background-color: black;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin: 0%;
+    padding: 0%;
+    float: right;
+    position: relative;
+    top: 20%;
+    z-index: 1;
+}
+table, td, th{
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+}
+th{
+    color: #ffffff;
+    font-weight: bolder; 
+    background-color: #413D3D;
+}
+td{
+    background-color: darkgrey;
+}
+
+#percentage {
+    color: darkgray;
+    text-align: center;
+    font-size: 20px;
+    padding: 0%;
+    margin-top: 0%;
+    margin-left: 20%;
+}
+#score{
+    padding-left: 20%;
+    color: white;
+    background-color: #1D3C6A;
+}
+#retakeTest{
+    float: right;
+    background-color: #01BBFF;
+    width: 100px;
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 5px 20px 5px 0px;
+    padding: 5px 5px;
+    border-radius: 20%;
+}
+
+#retakeTest:hover{
+    background-color: whitesmoke;
+    color: #1D3C6A;
+}
